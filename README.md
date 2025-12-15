@@ -42,14 +42,27 @@ switch2.
 Direct connection: CIRCUIT DIAGRAM: 
     ![b eee prt 3 1](https://github.com/user-attachments/assets/05a19f73-d016-4d60-bf27-84b3a1042b7f)
 
-circuit diagram: Tabulation:1
-	![b ee exp 3 1](https://github.com/user-attachments/assets/dc903fe4-fb30-4518-86df-47939b9389a2)
+ Tabulation:1
+ 
+ |NODE|S1|S2|LAMP|
+|-----|----|---|-----|
+|1|ON|ON|ON|
+|2|ON|OFF|OFF|
+|3|OFF|ON|OFF|
+|4|OFF|OFF|ON|
+
+
 
 Cross connection: CIRCUIT DIAGRAM:
 ![b ee prt 3 2](https://github.com/user-attachments/assets/0f63dbb6-63e8-4b5b-8e95-ddcfddae41e7)
 
 cicuit diagram: Tabulation:2
-![b eee exp 3 2](https://github.com/user-attachments/assets/b81cee61-48c3-4b9e-82df-4bc6d0699750)
+
+| COMPONENTS       | PROTEUS     | SPECIFICATION        |
+|------------------|-------------|----------------------|
+| AC Supply        | VSine       | Amplitude = 220 V    |
+| Two-way Switch   | SPDT        | Frequency = 50 Hz    |
+| Lamp             | Animated    | 230 V                |
 
 RESULT:
 Thus the staircase wiring is connected and tested.
